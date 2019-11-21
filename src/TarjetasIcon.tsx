@@ -1,12 +1,11 @@
 import React from "react";
-import { GiMiteAlt } from "react-icons/gi";
-
+//import { GiMiteAlt } from "react-icons/gi";
+//  <GiMiteAlt className="icono" />
 const TarjetaIcono: React.FC = () => {
   return (
     <div className="row-tarjetas">
       <div className="col-1-of-3">
         <div className="tarjeta">
-          <GiMiteAlt className="icono" />
           <h3>Que pasaaa</h3>
           <p>holaaaaaaaa</p>
         </div>
@@ -14,7 +13,6 @@ const TarjetaIcono: React.FC = () => {
 
       <div className="col-1-of-3">
         <div className="tarjeta">
-          <GiMiteAlt className="icono" />
           <h3>Que pasaaa</h3>
           <p>holaaaaaaaa</p>
         </div>
@@ -22,7 +20,6 @@ const TarjetaIcono: React.FC = () => {
 
       <div className="col-1-of-3">
         <div className="tarjeta">
-          <GiMiteAlt className="icono" />
           <h3>Que pasaaa</h3>
           <p>holaaaaaaaa</p>
         </div>
