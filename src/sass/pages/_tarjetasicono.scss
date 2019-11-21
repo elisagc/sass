@@ -1,0 +1,23 @@
+.row-tarjetas {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-image: linear-gradient(to right bottom, $b1, $b2, $b3);
+}
+
+.col-1-of-3 {
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  box-shadow: 0 1.5rem 4rem black;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(1rem) scale(1.1);
+  }
+}
+
+.icono {
+  width: 100%;
+  height: 50px;
+}

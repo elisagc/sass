@@ -1,16 +1,10 @@
 import React from "react";
-import CartaGira from "./CartaGira";
-import ImagenCentral from "./imagenCentral";
-import MoveText from "./MoveText";
-import Skew from "./SkewText";
+import TarjetaIcono from "./TarjetasIcon";
 
 const App: React.FC = () => {
   return (
     <div className="section">
-      <ImagenCentral />
-      <Skew />
-      <MoveText />
-      <CartaGira />
+      <TarjetaIcono />
     </div>
   );
 };
