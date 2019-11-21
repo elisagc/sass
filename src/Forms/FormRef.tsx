@@ -1,4 +1,4 @@
-import React, { Component, createRef } from "react";
+import React, { Component, createRef, FormEvent } from "react";
 
 export default class UncontrolledForm extends Component {
   name: React.RefObject<HTMLInputElement>;
@@ -12,6 +12,13 @@ export default class UncontrolledForm extends Component {
     event.preventDefault();
     //@ts-ignore
     console.log(this.name.current.value);
+  };
+
+  submitFormHandler2 = (event: FormEvent) => {
+    event.preventDefault();
+    if (this.name.current) {
+      console.log(this.name.current.value);
+    }
   };
 
   render() {
