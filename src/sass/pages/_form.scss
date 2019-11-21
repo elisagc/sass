@@ -1,0 +1,59 @@
+.container__form {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+
+  &-box {
+    width: 50%;
+    background-color: rgba(95, 128, 158, 0.514);
+    padding: 30px;
+  }
+}
+
+@mixin input {
+  padding: 12px;
+  border: 1px solid #56b3b9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: monospace;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  @include input;
+}
+
+input[type="date"] {
+  @include input;
+  width: 30%;
+}
+
+input[type="submit"] {
+  background-color: #499394;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #56b3b9;
+}
+.container {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #e0e4e4;
+  padding: 20px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

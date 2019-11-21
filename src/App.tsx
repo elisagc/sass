@@ -1,10 +1,10 @@
 import React from "react";
-import TarjetaIcono from "./TarjetasIcon";
+import Form1 from "./Forms/Form1";
 
 const App: React.FC = () => {
   return (
     <div className="section">
-      <TarjetaIcono />
+      <Form1 />
     </div>
   );
 };
