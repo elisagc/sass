@@ -1,10 +1,10 @@
 import React from "react";
-import Form1 from "./Forms/Form1";
+import Todo from "./Forms/Todo";
 
 const App: React.FC = () => {
   return (
     <div className="section">
-      <Form1 />
+      <Todo />
     </div>
   );
 };
