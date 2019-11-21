@@ -1,3 +1,12 @@
-.header {
-  height: 40vh;
+$b1: rgba(34, 68, 112, 0.8);
+$b2: rgba(26, 151, 151, 0.8);
+$b3: rgba(247, 247, 247, 0.8);
+
+.box-imagen {
+  height: 60vh;
+  background-image: linear-gradient(to right bottom, $b1, $b2, $b3),
+    url(../../img/perrito.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);
 }
