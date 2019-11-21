@@ -1,0 +1,22 @@
+.confirm__box {
+  background-color: red;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &-data {
+    width: 50%;
+    background-color: blueviolet;
+    display: flex;
+    //justify-content: center;
+    flex-direction: column;
+
+    h2 {
+      text-align: center;
+    }
+    div {
+      text-align: center;
+    }
+  }
+}

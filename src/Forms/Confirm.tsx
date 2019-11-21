@@ -6,11 +6,12 @@ type props = {
 
 const Confirm: React.FC<props> = props => (
   <div className="confirm__box">
-    {props.data.map(e => (
-      <div key={e} className="confirm__box-data">
-        {e}
-      </div>
-    ))}
+    <div className="confirm__box-data">
+      <h2>sus datos de reserva son:</h2>
+      {props.data.map(e => (
+        <div key={e}>{e}</div>
+      ))}
+    </div>
   </div>
 );
 
