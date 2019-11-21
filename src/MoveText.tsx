@@ -2,7 +2,7 @@ import React from "react";
 
 const MoveText: React.FC = () => {
   return (
-    <section className="header">
+    <section>
       <div className="header-box">
         <h1 className="heading-primary">
           <span className="heading-primary--main">Outdoors</span>

@@ -1,11 +1,15 @@
 import React from "react";
+import CartaGira from "./CartaGira";
+import ImagenCentral from "./imagenCentral";
 import MoveText from "./MoveText";
 
 const App: React.FC = () => {
   return (
-    <section className="section-tours">
+    <div className="section">
+      <ImagenCentral />
       <MoveText />
-    </section>
+      <CartaGira />
+    </div>
   );
 };
 
